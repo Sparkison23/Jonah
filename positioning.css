@@ -1,0 +1,80 @@
+/* positioning.css */
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; /* header background color */
+    color: #fff; /* header text color */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content */
+.main-content 
+   
+
+/* Additional Elements */
+
+/* Z-index */
+.element-with-z-index {
+    z-index: 999; /* Adjust as needed */
+}
+
+/* Float */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Resizing and Cropping Images */
+.resizable-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.cropped-image {
+    overflow: hidden;
+    width: 200px; 
+    height: 200px; 
+}
+
+/* Footer Styles */
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* Black background */
+    color: #fff; /* White text color */
+    text-align: center; 
+    padding: 10px 0; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+}

@@ -1,0 +1,107 @@
+/* General styling for the entire website */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #9a9898; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+}
+
+/* Product Styles */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(50% - 10px); 
+    margin-right: 20px; /* Margin to create space between products */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smoother hover effect */
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Resume Styles */
+.resume {
+    background-color: #4da2ec; /* Light blue background color */
+    padding: 20px; 
+}
+
+.resume-photo {
+    width: 300px; 
+    height: auto; 
+    border-radius: 50%; /* Make the image round */
+    display: block; /
+    margin: 0 auto 20px; /* To center the image horizontally and add some bottom margin */
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Some bottom margin for better spacing */
+}
